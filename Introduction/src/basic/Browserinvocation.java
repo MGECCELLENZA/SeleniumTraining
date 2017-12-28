@@ -5,9 +5,6 @@ import java.sql.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.internal.FindsByXPath;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Browserinvocation {
@@ -30,7 +27,6 @@ public class Browserinvocation {
 		
 		//get site title & page source in console
 		System.out.println(driverChrome.getTitle());
-		System.out.println(driverChrome.getPageSource());
 		System.out.println(driverChrome.getCurrentUrl());
 		
 		//close current browser session
