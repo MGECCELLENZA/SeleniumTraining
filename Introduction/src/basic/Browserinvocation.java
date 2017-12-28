@@ -16,6 +16,7 @@ public class Browserinvocation {
 		System.setProperty("webdriver.gecko.driver", "/Users/musabgusbi/Documents/workspace/drivers/geckodriver");
 		WebDriver driverFirefox = new FirefoxDriver();
 		driverFirefox.get("www.yahoo.com");
+	
 		
 		//CHROME works. download latest ChromeDriver from https://chromedriver.storage.googleapis.com/index.html
 		//store chromeDriver Unix executable  (double click file to test its running port with no error) in Workspace/drivers folder
