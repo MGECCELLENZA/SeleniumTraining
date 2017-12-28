@@ -9,7 +9,7 @@ public class chromeBrowser {
 	
 	static WebDriver driver = new ChromeDriver();
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/musabgusbi/Documents/workspace/drivers/chromedriver");
 		
