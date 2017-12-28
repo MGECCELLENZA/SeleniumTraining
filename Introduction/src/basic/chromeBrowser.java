@@ -13,6 +13,7 @@ public class chromeBrowser {
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/musabgusbi/Documents/workspace/drivers/chromedriver");
 		
+		//open Chrome browser
 		WebDriver driverChrome=new ChromeDriver();
 		
 		//go to goal site
